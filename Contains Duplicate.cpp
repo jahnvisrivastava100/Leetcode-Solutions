@@ -1,7 +1,7 @@
 class Solution {
 public:
 bool containsDuplicate(vector<int>& nums) {
-    map<int, bool> myMap;//here creating map with key value of type int and value of bool
+    unordered_map<int, bool> myMap;//here creating map with key value of type int and value of bool
     // unordered_map<int, bool> myMap;
     for (auto& num: nums) {
         if (myMap.find(num) != myMap.end())//if we are able to find an element with that key value then we return true
