@@ -1,3 +1,27 @@
+
+
+
+/*--------------------------------brute Force-------------
+*
+class Solution {
+public:
+    int maxArea(vector<int>& height) {
+        int temp ;
+        int ans=INT_MIN ;
+        // int a ;
+        for(int i=0 ; i<=height.size()-2 ;i++){
+            for(int j =i ;j<=height.size()-1 ;j++){
+                temp=min(height[i] ,height[j])*(j-i);
+                // temp=a*(j-i);
+                ans =max(ans , temp);
+            }
+        }
+            
+       return ans ; 
+    }
+};
+*/
+//Two pointer approach
 class Solution {
 public:
     int maxArea(vector<int>& height) {
