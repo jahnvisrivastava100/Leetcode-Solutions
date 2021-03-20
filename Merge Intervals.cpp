@@ -1,7 +1,7 @@
 
 /*Input----------------------------[[1,3],[2,6],[8,10],[15,18]]
 ans=[[1,3]]
-                                Dry Run
+                                Dry Run Implementation
                                 at i=1,j=0
                                 3>=2----true
                                 curr=[1,max(3,6)]=>[1,6]
