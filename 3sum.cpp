@@ -54,7 +54,7 @@ public:
 }
 };
 
-//-----optimized-----
+/*----optimized code-----*/
 
 
 class Solution {
