@@ -1,7 +1,8 @@
 class Solution {
 public:
    int climbStairs(int n) {
-        int arr[n+1]; // here we created new array of n+1 index
+        int arr[n+1]; // here we created new array of n+1 index since The size of this table is defined by the number of subproblems.
+      //There are a total of (N+1) subproblems for N stairs since we are considering the 0th step as well for our convenience
         for(int i=0;i<=n;i++)
         {
             arr[i]=0;    // here we make whole new array values to 0 
