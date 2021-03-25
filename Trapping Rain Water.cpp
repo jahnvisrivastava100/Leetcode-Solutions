@@ -1,3 +1,18 @@
+/*'Brute For prefix sum      for(int i = 0; i< height.length; i++){
+                                left[i] = height[i];
+                                for(int j = i-1; j>=0; j--){
+                                     if(left[i]> height[j]){
+
+                                     }else{
+                                         left[i] = height[j];      
+                                     }
+
+                                }
+                            }
+
+                            return left;
+                        }
+    */
 
 //Solution 1---------Array approach
 class Solution {
