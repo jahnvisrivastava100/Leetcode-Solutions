@@ -1,3 +1,6 @@
 # Leetcode-Solutions
+<b>This repository has all my optimal solutions to Leetcode problems</b>
 
-This repository has all my optimal solutions to Leetcode problems
+
+ <img src="software-development-3.gif">
+<br>
