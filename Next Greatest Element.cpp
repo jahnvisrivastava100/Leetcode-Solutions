@@ -14,9 +14,9 @@ public:
             
             while(!st.empty() && element > st.top())
             {
-                //NGE of st.top() is element
-				
+                //we will map number:next greater
                 umap[st.top()] = element;
+		    
                 st.pop();
             }
             
@@ -26,11 +26,11 @@ public:
         for(int i=0; i<nums1.size(); i++)
         {
             int ele = nums1[i];
-            
+            //if that number found in map then its next greater exist else not
             if(umap.find(ele) != umap.end())
             {
                 int nge = umap[ele];
-                res[i] = nge; //push NGE of desired element
+                res[i] = nge; 
             }
                 
         }
